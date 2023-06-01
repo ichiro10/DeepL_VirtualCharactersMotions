@@ -12,7 +12,7 @@ Project: VIRTUS-INRIA
 
 # Subject:
 
-    In recent years, we have seen a significant development in creating digital doubles and
+  In recent years, we have seen a significant development in creating digital doubles and
 characters who closely resemble real humans. Creating believable behaviour and
 animation for these virtual humans has remained challenging, especially when applied to
 photorealistic characters . In this research project, we will be exploring the animation
