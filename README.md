@@ -3,11 +3,14 @@ Deep Learning application for style control of virtual characters motions
 
 
 Type of offer: Masters/Research Masters
+
 Location: Rennes
+
 Research topic: Deep Learning, animation, virtual reality
+
 Project: VIRTUS-INRIA
 
-# # # Subject:
+# Subject:
 
 In recent years, we have seen a significant development in creating digital doubles and
 characters who closely resemble real humans. Creating believable behaviour and
@@ -38,7 +41,7 @@ guidelines for a wider spread application for entertainment, training and rehabi
 
 
 
-Literature:
+Literature: 
 [1] Metahumans, Unreal Engine: https://www.unrealengine.com/en-US/metahuman
 [2] McDonnell, R., Breidt, M., & Bülthoff, H. H. (2012). Render me real?: investigating the effect of render style on the
 perception of animated virtual humans. ACM Transactions on Graphics (TOG), 31(4), 91
