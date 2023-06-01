@@ -22,7 +22,7 @@ appalling characters and their impact on the users will be the central subject o
 The objective of this research is to identify which aspects of the character animation affect
 the user’s perception and interaction with the character (agent).
 
-    First, we will focus on representation of motion data in sparse components which can be combined to
+  First, we will focus on representation of motion data in sparse components which can be combined to
 produce movements of various styles (happy, depressed, calm, etc.) To do so we will train a Deep Learning model on large motion capture datasets.
 
 
@@ -41,7 +41,7 @@ Figure 1: Motion style transfer: from depressed to proud
 
 
 
-    The design will be validated by conducting perceptual studies, particularly by harnessing the
+  The design will be validated by conducting perceptual studies, particularly by harnessing the
 power of VR which allows the measure of behavioural responses of the users to virtual
 people, while our findings will be used to advance further research and provide design
 guidelines for a wider spread application for entertainment, training and rehabilitation.
