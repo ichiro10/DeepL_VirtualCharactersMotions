@@ -209,7 +209,7 @@ def readCSVasFloat(filename):
   for line in lines:
     line = line.strip().split(',')
     if len(line) > 0:
-      returnArray.append(np.array([np.float32(x) for x in line]))
+      returnArray.append([np.float32(x) for x in line])
 
   returnArray = np.array(returnArray)
   return returnArray
