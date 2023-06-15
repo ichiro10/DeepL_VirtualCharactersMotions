@@ -191,9 +191,14 @@ def main():
   parent, offset, rotInd, expmapInd = _some_variables()
 
   # numpy implementation
-  filename = "C:/Users/aghammaz/Desktop/Internship/FBX/session14.txt"
+  #filename = "C:/Users/aghammaz/Desktop/Internship/FBX/session14.txt"
   #filename = "C:/Users/aghammaz/Desktop/Internship/FBX/directions_1.txt"
-  seq = data_utils.readCSVasFloat(filename)
+  data = np.load('interpolated_data.npz', allow_pickle=True)
+
+  clips = data['clips']
+  seq= clips[46]
+  
+
   expmap = seq #revert_coordinate_space( seq, np.eye(3), np.zeros(3) )
   nframes = expmap.shape[0]
   
@@ -204,7 +209,7 @@ def main():
       xyz[i,:] = fkl( expmap[i,:], parent, offset, rotInd, expmapInd )
   # === Plot and animate ===
   fig = plt.figure()
-  ax = fig.add_subplot(projection='3d')
+  ax = plt.gca(projection='3d')
   ob = viz.Ax3DPose(ax)
 
   # Plot the conditioning ground truth
